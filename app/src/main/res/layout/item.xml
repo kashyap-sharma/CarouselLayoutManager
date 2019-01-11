@@ -10,6 +10,6 @@
         android:text="Vikash Pandey"
         android:gravity="center"
         android:id="@+id/sasa"
-        android:textColor="#ffffff"
+        android:textColor="#fff"
         android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>
