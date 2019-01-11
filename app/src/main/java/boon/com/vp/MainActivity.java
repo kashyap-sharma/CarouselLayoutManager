@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -96,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onBindViewHolder(final TestViewHolder holder, final int position) {
             Log.e("!!!!!!!!!", "onBindViewHolder: " + position);
-
+            holder.sasa.setBackgroundColor(mColors[position]);
         }
 
         @Override
@@ -112,11 +113,11 @@ public class MainActivity extends AppCompatActivity {
 
     private static class TestViewHolder extends RecyclerView.ViewHolder {
 
-
+        TextView sasa;
 
         TestViewHolder(final View itemViewBinding) {
             super(itemViewBinding);
-
+            sasa=itemViewBinding.findViewById(R.id.sasa);
 
         }
     }
