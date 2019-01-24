@@ -9,7 +9,9 @@
         android:layout_margin="56dp"
         android:text="Vikash Pandey"
         android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
         android:id="@+id/sasa"
-        android:textColor="#fff"
+        android:textColor="#fff000"
         android:layout_height="match_parent" />
 </android.support.constraint.ConstraintLayout>
